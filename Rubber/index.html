@@ -17,6 +17,17 @@
         {
         alert('Se ha enviado el mail.');
         });
+
+         function calculocuota()
+        {
+            var total;
+            var precio = parseInt(document.getElementById("preciocalculadora").value);
+            var cuotas = parseInt(document.getElementById("cuotascalculadora").value);
+    
+            var total=precio+(cuotas*(precio*0.003))
+            alert("el precio en cuotas sera: $"+ total)
+        }
+
             
         </script>
 
@@ -102,6 +113,18 @@
             <button type="button" class="btnya"><a href="busqueda.html" class="textoboton">BUSCA TU CASA YA</a> </button>
             <br>
         </div>
+        
+        <div id="calculadora">
+            <br>
+            <form align="center">
+                Precio <input type="text" id="preciocalculadora"><br><br>
+                Cuotas <input type="text" id="cuotascalculadora"><br><br>
+                <button type="button" id="bottoncalculadora" onclick="calculocuota()"> Calcula</button>
+            </form>
+            <br>
+        </div>
+
+
         <div id="footer">
             <p class="textofooter">Si desea recibir notificaciones sobre nuevas publicaciones, ingrese su mail.</p>
             <input type="email" class="email"></input>
