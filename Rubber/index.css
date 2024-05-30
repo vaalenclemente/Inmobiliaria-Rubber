@@ -176,6 +176,31 @@ li{
     margin: 100px;
     background-color: white;
 }
+
+#calculadora{
+    padding-top: 20px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    width: 100%;
+    box-shadow: rgb(150,150,150) 3px 3px;
+    overflow: hidden;   
+    background-color: white;
+}
+
+#bottoncalculadora{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ce334e;
+    border-radius: 15px;
+    border-color: #E6E3DD;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 180px;
+    font-size: medium;
+}
     
 /*PIE DE PAG*/
 button{
