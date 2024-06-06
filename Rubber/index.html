@@ -5,15 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rubber Domus Propiedades</title>
     <link rel="Stylesheet" href="./index.css" type="text/css">
+    <script src="jquery-ui-1.13.3.custom/external/jquery/jquery.js"></script>
 </head>
 <body>
      <script language='javascript'>
-            document.getElementById('enviar').addEventListener('click', presiono_enviar);
 
-            function presiono_enviar() {
-            alert('Se ha enviado el mail');  
+         function calculocuota()
+        {
+            var total;
+            var precio = parseInt(document.getElementById("preciocalculadora").value);
+            var cuotas = parseInt(document.getElementById("cuotascalculadora").value);
+    
+            var total=precio+(cuotas*(precio*0.003))
+            alert("el precio en cuotas sera: $"+ total)
         }
-     </script>
+
+        $(document).ready(function(){
+            $(".casaizquierda").hover(
+                function() {
+                    $(this).css("transform", "scale(1.10)");;   
+                }, 
+                function() {
+                    $(this).css("transform", "scale(1)");
+                }    
+            );
+        });
+
+        $(document).ready(function(){
+            $(".casaderecha").hover(
+                function() {
+                    $(this).css("transform", "scale(1.10)");;   
+                }, 
+                function() {
+                    $(this).css("transform", "scale(1)");
+                }    
+            );
+        });
+
+        $(document).ready(function(){
+            $(".casamedio").hover(
+                function() {
+                    $(this).css("transform", "scale(1.10)");;   
+                }, 
+                function() {
+                    $(this).css("transform", "scale(1)");
+                }    
+            );
+        });
+
+        </script>
+
     
     <div id="contenedor">
         <div id="header" id="nav" align="center"><!-- Logo y nombre-->
@@ -26,6 +67,7 @@
             </ul>
         </div>
 
+
         <section id="reproductor">
             <video src="IMG/videoprincipal.mp4"  width="100%" loop autoplay muted></video> 
         </section>
@@ -37,6 +79,7 @@
         <h4 class="frase">NOVEDADES</h4>
         <div class="casas">
             <div class="casaizquierda">
+
                 <img src="IMG/k1.jpeg" alt="Imagen 1" width="100%" height="auto">
                 <div class="contenido">
                     <h3>$310.000</h3>
