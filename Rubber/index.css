@@ -43,7 +43,7 @@ h3{
 /*NAVEGACION*/
 
 #nav{
-    background-color: #f3efee;
+    background-color: #ce334e;
     margin-inline: 0px;
     margin: 0%;
     padding-top: 0%;
@@ -98,12 +98,12 @@ h3{
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     
-    color: #FFFFFF;
+    color: #ffffff;
     
 }
 
 li{
-    color: #FFFFFF;
+    color: #ce334e;
     
 }
 
@@ -149,7 +149,6 @@ li{
 .casaizquierda {
     margin-right: auto;
     width: 300px;
-    
     box-shadow: rgb(150,150,150) 3px 3px;
     border-radius: 8px;
     overflow: hidden;
@@ -158,6 +157,7 @@ li{
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: white;
+    transition: transform 0.3s;
 }
 
 .casamedio {
@@ -171,6 +171,7 @@ li{
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: white;
+    transition: transform 0.3s;
 }
 
 .casaderecha {
@@ -184,11 +185,12 @@ li{
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: white;
+    transition: transform 0.3s;
 }
 
 #calculadora{
     padding-top: 20px;
-    margin-top: 10px;
+    margin-top: 80px;
     font-family: Arial, Helvetica, sans-serif;
     align-content: center;
     width: 100%;
