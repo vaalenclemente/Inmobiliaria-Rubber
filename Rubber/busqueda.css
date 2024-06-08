@@ -161,17 +161,15 @@ h3{
 .casaizquierda {
     margin-right: auto;
     width: 300px;
-    
     box-shadow: rgb(150,150,150) 3px 3px;
     border-radius: 8px;
     overflow: hidden;
-
     margin-left: 300px;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-
     background-color: white;
+    transition: transform 0.3s;
 }
 
 .casamedio {
@@ -180,29 +178,26 @@ h3{
     box-shadow: rgb(150,150,150) 3px 3px;
     border-radius: 8px;
     overflow: hidden;
-    
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-
     background-color: white;
+    transition: transform 0.3s;
 }
 
 .casaderecha {
     margin-left: auto; 
     width: 300px;
-
     box-shadow: rgb(150,150,150) 3px 3px;
     border-radius: 8px;
-    overflow: hidden;
-    
+    overflow: hidden;  
     margin-left: 20px;
     margin-right: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
-
     background-color: white;
+    transition: transform 0.3s;
 }
     
 /*PIE DE PAG*/
