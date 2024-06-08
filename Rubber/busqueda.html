@@ -7,6 +7,43 @@
     <link rel="Stylesheet" href="./busqueda.css" type="text/css">
 </head>
 <body>
+        <script language="javascript">
+         $(document).ready(function(){
+            $(".casaizquierda").hover(
+                function() {
+                    $(this).css("transform", "scale(1.10)");;   
+                }, 
+                function() {
+                    $(this).css("transform", "scale(1)");
+                }    
+            );
+        });
+
+        $(document).ready(function(){
+            $(".casamedio").hover(
+                function() {
+                    $(this).css("transform", "scale(1.10)");;   
+                }, 
+                function() {
+                    $(this).css("transform", "scale(1)");
+                }    
+            );
+        });
+
+        $(document).ready(function(){
+            $(".casaderecha").hover(
+                function() {
+                    $(this).css("transform", "scale(1.10)");;   
+                }, 
+                function() {
+                    $(this).css("transform", "scale(1)");
+                }    
+            );
+        });
+
+
+
+    </script>
     <div id="contenedor">
         <div id="header" align="center"><!-- Logo y nombre-->
             <a href="./index.html"><img src="IMG/Proyecto nuevo.png" id="logo"></a>
